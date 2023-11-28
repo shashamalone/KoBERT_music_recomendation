@@ -32,7 +32,13 @@ KoBERT모델 기반의 Text(예: 일기)에 어울리는 노래 추천 프로젝
 
 ## 🏆 Modeling
 
-### RandomforestClassfier
+### KoBERT Model
+KoBERT Model은 SKT-Brain에서 개발한 한국어 기반  BERT 모델.
+한국어는 다른 언어에 비해 한 단어에 의미가 많아 한국어만을 학습한 모델 필요해 BERT 모델을 한국어에 적용한 모델을 사용
+BERT모델은 현존하는 가장 강력한 NLP 언어모델. 언어모델 전이학습 컨셉을 적용한 모델 
+
+
+
 
 
 ## 🏆 Data
