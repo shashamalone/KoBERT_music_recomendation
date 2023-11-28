@@ -1,11 +1,16 @@
-# KoBERT_music_recomendation
+# 오늘 나의 기분에 맞는 BGM은? (Web Scraping & KoBERT)
+---
+
 KoBERT모델 기반의 Text(예: 일기)에 어울리는 노래 추천 프로젝트
 
-
-# 오늘 나의 기분에 맞는 BGM은? (Web Scraping & KoBERT)
 ### 프로젝트 구조도
 ![슬라이드34](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/b889b58a-f20c-4195-8814-096f47c66942)
 ![슬라이드10](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/b579e600-dbeb-4990-a2df-953d3004df53)
+
+### streamlit 시연 화면
+![image](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/09cc71c4-ac1f-4a9d-83d3-fbfa728c387c)
+
+사용자가 자신의 일기데이터를 입력하면, ReUmi 모델이 음악을 추천
 
 
 
