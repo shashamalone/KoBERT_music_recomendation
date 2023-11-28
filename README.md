@@ -8,8 +8,9 @@ KoBERT모델 기반의 Text(예: 일기)에 어울리는 노래 추천 프로젝
  3. 팀원: 김이정, 김나린, 박지우, 최형규
 
 ### 프로젝트 구조도
-![슬라이드34](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/b889b58a-f20c-4195-8814-096f47c66942)
 ![슬라이드10](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/b579e600-dbeb-4990-a2df-953d3004df53)
+![슬라이드34](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/b889b58a-f20c-4195-8814-096f47c66942)
+
 
 ### ⭐ streamlit 시연 화면
 ![image](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/09cc71c4-ac1f-4a9d-83d3-fbfa728c387c)
