@@ -35,7 +35,8 @@ KoBERT모델 기반의 Text(예: 일기)에 어울리는 노래 추천 프로젝
 
   
 Melon_song_data를 완성된 ReUmi Model에 넣어 감정 categroy결과를 컬럼으로 저장했다.
-이는 1차 필터링에서 사용자의 일기에서 느껴지는 감정과 동일한 노래리스트를 뽑는데에 사용함.
+이는 1차 필터링에서 사용자의 일기에서 느껴지는 감정과 동일한 노래리스트를 뽑는데에 사용하였다.
+- 결과 : total_melon_emotion.csv
 ![image](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/edfa281d-7ebb-4362-b758-b2291147bb84)
 
 
