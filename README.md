@@ -3,9 +3,9 @@
 KoBERT모델 기반의 Text(예: 일기)에 어울리는 노래 추천 프로젝트
 
 ## 🏆 Project Introduction
- 2. 주제: 일기, 다이어리의 글을 입력하면 감정을 분석해 어울리는 음악 추천
- 3. 팀원: 김이정(PM, Developer), 김나린(Front-End, Developer), 박지우(Developer), 최형규(Dveloper)
- 4. 프로젝트 기간 : : 11/13(금) ~ 11/28(화)
+1. 주제: 일기, 다이어리의 글을 입력하면 감정을 분석해 어울리는 음악 추천
+2. 팀원: 김이정(PM, Developer), 김나린(Front-End, Developer), 박지우(Developer), 최형규(Dveloper)
+3. 프로젝트 기간 : : 11/13(금) ~ 11/28(화)
 
 ### 프로젝트 구조도
 ![슬라이드10](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/b579e600-dbeb-4990-a2df-953d3004df53)
@@ -69,7 +69,6 @@ num_epochs = 7
 max_grad_norm = 1   
 log_interval = 200   
 learning_rate =  3e-5   
-
 
 
 
