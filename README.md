@@ -59,7 +59,8 @@ KoBERT 모델 학습을 위한 AI HUB의 한국어 데이터
 ### ✔️ ReUmi Model
 ReUmi Model은 한국어 대화 데이터셋 약 15만개를 KoBERT모델에 학습시켜 완성한 최종 모델
 프로젝트명인 Read Your Mind를 따 만들었다.
-![554cece6-5b09-4262-a320-ab2b28da87ae](https://github.com/shashamalone/KoBERT_music_recomendation/assets/121562687/6f978770-f01c-4233-920f-fd02427793e6)
+![그림1](https://github.com/shashamalone/KoBERT_music_recomendation/assets/121562687/513707c0-8f30-45cf-9ce5-02bc8ffb2033)
+
 
 
 - train acc : 0.9154 , val acc : **0.7957**
