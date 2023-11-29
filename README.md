@@ -84,7 +84,7 @@ learning_rate =  3e-5
 
 ## 💻 Code
 < Crawling >   
-1. Meloncralewer.ipynb : 멜론 크롤링을 위한 코드
+1. melon_crawler.ipynb : 멜론 크롤링을 위한 코드
 
 < Modeling >   
 2. 감정분석_modeling_final.ipynb : ReUmi모델 완성에 사용된 코드
