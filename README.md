@@ -78,21 +78,21 @@ learning_rate =  3e-5
 
 
 ## 💻 Code
-< Crawling >
+< Crawling >   
 Meloncralewer.ipynb : 멜론 크롤링을 위한 코드
 
-< Modeling >
+< Modeling >   
 감정분석_modeling_final.ipynb : ReUmi모델 완성에 사용된 코드
 
-< Fron-End >
-MusicRecommend.py
+< Fron-End >   
+MusicRecommend.py   
 - predict(predict_sentence): ReUmi모델 실행하는 코드
 	- ReUmi.pt
 	- model_state_dict.pt
 - vectorize_text(text, vectorizer) :입력한 텍스트를 벡터화하는 함수
-- find_similar_songs(user_text, songs_data, top_n=3) :입력한 텍스트의 감정을 인식하고 노래를 추천하는 함수
+- find_similar_songs(user_text, songs_data, top_n=3) :입력한 텍스트의 감정을 인식하고 노래를 추천하는 함수   
 
-
+   
 streamlit_Colab.ipynb : Colab에서 streamlit을 실행해 화면을 시연하는 함수
     - style.css 
     - normalize.css 
