@@ -7,7 +7,7 @@ KoBERT모델 기반의 Text(예: 일기)에 어울리는 노래 추천 프로젝
 2. [프로젝트 구조도](#프로젝트-구조도)
 3. [⭐️ streamlit 시연 화면](#streamlit-시연-화면)
 
-## 🏆 Project Introduction
+## Project Introduction
 1. 주제: 일기, 다이어리의 글을 입력하면 감정을 분석해 어울리는 음악 추천
 2. 팀원: 김이정(PM, Developer), 김나린(Front-End, Developer), 박지우(Developer), 최형규(Dveloper)
 3. 프로젝트 기간 : : 11/13(금) ~ 11/28(화)
@@ -17,7 +17,7 @@ KoBERT모델 기반의 Text(예: 일기)에 어울리는 노래 추천 프로젝
 ![슬라이드34](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/b889b58a-f20c-4195-8814-096f47c66942)
 
 
-### :star: streamlit 시연 화면
+### streamlit 시연 화면
 ![image](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/09cc71c4-ac1f-4a9d-83d3-fbfa728c387c)
 
 사용자가 자신의 일기데이터를 입력하면, ReUmi 모델이 음악을 추천
