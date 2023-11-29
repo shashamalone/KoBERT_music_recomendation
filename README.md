@@ -90,7 +90,7 @@ learning_rate =  3e-5
 2. 감정분석_modeling_final.ipynb : ReUmi모델 완성에 사용된 코드
 
 
-< Fron-End >
+< Fron-End >   
 3. MusicRecommend.py : 텍스트를 입력하면 ReUmi모델과 코사인유사도에 기반해 노래를 추천하는 코드   
 - predict(predict_sentence): ReUmi모델 실행하는 코드
 	- ReUmi.pt
