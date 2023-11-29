@@ -74,9 +74,9 @@ learning_rate =  3e-5
 
 
 ## 💻 Code
-- Meloncralewer.ipypb
+- Meloncralewer.ipynb
 
-< MusicRecommend.py >
+< MusicRecommend.pt >
 - ReadYourMind.pt
 - model_state_dict.pt
 
