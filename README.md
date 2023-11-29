@@ -3,9 +3,8 @@
 KoBERT모델 기반의 Text(예: 일기)에 어울리는 노래 추천 프로젝트
 
 ## 🏆 Project Introduction
- 1. 엔코아 데이터 애널리시스 33기 mini project
  2. 주제: 일기, 다이어리의 글을 입력하면 감정을 분석해 어울리는 음악 추천
- 3. 팀원: 김이정(PM, Developer), 김나린, 박지우, 최형규
+ 3. 팀원: 김이정(PM, Developer), 김나린(Front-End, Developer), 박지우(Developer), 최형규(Dveloper)
  4. 프로젝트 기간 : : 11/13(금) ~ 11/28(화)
 
 ### 프로젝트 구조도
