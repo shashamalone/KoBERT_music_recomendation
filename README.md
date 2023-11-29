@@ -3,7 +3,7 @@
 KoBERT모델 기반의 Text(예: 일기)에 어울리는 노래 추천 프로젝트
 
 ## 목차
-1. [Project Introduction](#Project-Introduction)
+1. [Project Introduction](#🏆-Project-Introduction)
 2. [프로젝트 구조도](#프로젝트-구조도)
 3. [streamlit 시연 화면](#⭐-streamlit-시연-화면)
 
