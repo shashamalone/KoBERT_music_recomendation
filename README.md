@@ -1,4 +1,4 @@
-![ClipWindowsGIF](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/f1c0fde2-5b07-4bc0-b9c4-73d9b0684b36)# 오늘 나의 기분에 맞는 BGM은? (Web Scraping & KoBERT)
+# 오늘 나의 기분에 맞는 BGM은? (Web Scraping & KoBERT)
 
 KoBERT모델 기반의 Text(예: 일기)에 어울리는 노래 추천 프로젝트
 
