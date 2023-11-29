@@ -61,22 +61,28 @@ ReUmi Model은 한국어 대화 데이터셋 약 15만개를 KoBERT모델에 학
 ![image](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/fcd92187-18fa-4d5a-85de-dcf676b5683b)
 - train acc : 0.9154 , val acc : 0.7957
 - Setting parameters
-num_classes=7
-max_len = 64
-batch_size = 64
-warmup_ratio = 0.1
-num_epochs = 7
-max_grad_norm = 1
-log_interval = 200
-learning_rate =  3e-5
+num_classes=7   
+max_len = 64   
+batch_size = 64   
+warmup_ratio = 0.1   
+num_epochs = 7   
+max_grad_norm = 1   
+log_interval = 200   
+learning_rate =  3e-5   
 
 
 
 
 ## 💻 Code
+- Meloncralewer.ipypb
 
-- Meloncralewer.ipypb 
-- MusicRecommend.py 
+< MusicRecommend.py >
+- ReadYourMind.pt
+- model_state_dict.pt
+
+< streamlit >
+- style.css 
+- normalize.css 
 
 
 
