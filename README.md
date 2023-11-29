@@ -4,8 +4,11 @@ KoBERT모델 기반의 Text(예: 일기)에 어울리는 노래 추천 프로젝
 
 ## 목차
 1. [Project Introduction](#Project-Introduction)
-2. [프로젝트 구조도](#프로젝트-구조도)
-3. [streamlit 시연 화면](#streamlit-시연-화면)
+	1.1. [프로젝트 구조도](#프로젝트-구조도)
+	1.2. [streamlit 시연 화면](#streamlit-시연-화면)
+2. [Research and Analysis](#Research-and-Analysis)
+3. [Crawling](#Crawling)
+4. [Modeling](#Modeling)
 
 ## Project Introduction
 1. 주제: 일기, 다이어리의 글을 입력하면 감정을 분석해 어울리는 음악 추천
@@ -31,7 +34,7 @@ KoBERT모델 기반의 Text(예: 일기)에 어울리는 노래 추천 프로젝
 
 
 
-## 📝 Crawling
+## Crawling
 
 사용자에게 추천해주기 위한 장르별 음악을 Melon에서 Selenium을 활용해 크롤링하였다.
 - 스테디셀러 50개, 인기곡 50개를 장르별로 크롤링
@@ -46,7 +49,7 @@ Melon_song_data를 완성된 ReUmi Model에 넣어 감정 categroy결과를 컬�
 
 
 
-## 🏆 Modeling
+## Modeling
 
 ### ✔️ KoBERT Model
 KoBERT Model은 SKT-Brain에서 개발한 한국어 기반  BERT 모델.
