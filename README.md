@@ -58,6 +58,7 @@ KoBERT 모델 학습을 위한 AI HUB의 한국어 데이터
 
 ### ✔️ ReUmi Model
 ReUmi Model은 한국어 대화 데이터셋 약 15만개를 KoBERT모델에 학습시켜 완성한 최종 모델
+프로젝트명인 Read Your Mind를 따 만들었다.
 ![image](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/fcd92187-18fa-4d5a-85de-dcf676b5683b)
 - train acc : 0.9154 , val acc : **0.7957**
 - 입력데이터를 여러버전으로 모델에 테스트해본 결과, 정확도는 0.87(Validation 기준)까지 나왔으나 가사에 대한 감정인지가 가장 높았던 모델로 선택하였다.
@@ -77,8 +78,10 @@ learning_rate =  3e-5
 - Meloncralewer.ipynb
 
 < MusicRecommend.pt >
-- ReadYourMind.pt
-- model_state_dict.pt
+- predict(predict_sentence): ReUmi를 실행하기 위한 코드
+    - ReUmi.pt    
+    - model_state_dict.pt
+-  vectorize_text(text, vectorizer) : 
 
 < streamlit >
 - style.css 
