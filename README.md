@@ -17,7 +17,7 @@ KoBERT모델 기반의 Text(예: 일기)에 어울리는 노래 추천 프로젝
 ![슬라이드34](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/b889b58a-f20c-4195-8814-096f47c66942)
 
 
-### :star:streamlit 시연 화면
+### :star: streamlit 시연 화면
 ![image](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/09cc71c4-ac1f-4a9d-83d3-fbfa728c387c)
 
 사용자가 자신의 일기데이터를 입력하면, ReUmi 모델이 음악을 추천
