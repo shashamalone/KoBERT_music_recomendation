@@ -6,10 +6,13 @@ KoBERT모델 기반의 Text(예: 일기)에 어울리는 노래 추천 프로젝
 - [Project Introduction](#Project-Introduction)
 	- [프로젝트 구조도](#프로젝트-구조도)
  	- [streamlit 시연 화면](#streamlit-시연-화면)
-2. [Research and Analysis](#Research-and-Analysis)
-3. [Crawling](#Crawling)
-4. [Modeling](#Modeling)
-
+- [Research and Analysis](#Research-and-Analysis)
+- [Crawling](#Crawling)
+- [Modeling](#Modeling)
+	- [KoBERT Model](#KoBERT-Model)
+ 	- [Model 학습을 위한 Data Sets 구축](#Model-학습을-위한-Data-Sets-구축)
+  	- [ReUmi Model](#ReUmi-Model)
+- [code](#code)
 ## Project Introduction
 1. 주제: 일기, 다이어리의 글을 입력하면 감정을 분석해 어울리는 음악 추천
 2. 팀원: 김이정(PM, Developer), 김나린(Front-End, Developer), 박지우(Developer), 최형규(Dveloper)
@@ -28,9 +31,8 @@ KoBERT모델 기반의 Text(예: 일기)에 어울리는 노래 추천 프로젝
     
    
 
-## 📖 Research and Analysis
+## Research and Analysis
 사람들은 가사를 통해 기분 전환을 하며, 노래 감상 시에 가사를 고려한다. 또한 SNS에서 자신의 감정을 담은 글들을 공유한다. 이러한 일상의 감정들에 어울리는 노래를 추천하는 서비스를 구현하고자 ReUMI모델을 만들게 되었다. 기존의 노래 플랫폼 멜론 , 지니 , 유튜브 등 에서 추천하는 노래들은 사용자의 선호 알고리즘 에 의한 추천일 뿐 , 사용자의 현재 감정에 초점을 맞추는 형태는 아니였기에 "감정"을 읽는 프로젝트 'Read Your Mind'를 주제로 정하였다.
-
 
 
 
@@ -51,10 +53,10 @@ Melon_song_data를 완성된 ReUmi Model에 넣어 감정 categroy결과를 컬�
 
 ## Modeling
 
-### ✔️ KoBERT Model
+### KoBERT Model
 KoBERT Model은 SKT-Brain에서 개발한 한국어 기반  BERT 모델.
 
-### ✔️ Model 학습을 위한 Data Sets 구축
+### Model 학습을 위한 Data Sets 구축
 
 KoBERT 모델 학습을 위한 AI HUB의 한국어 데이터
 1. 감성 대화 말뭉치 58271 개
@@ -64,7 +66,7 @@ KoBERT 모델 학습을 위한 AI HUB의 한국어 데이터
 - 감정 Label : 행복, 슬픔 , 분노 , 공포 , 혐오 , 놀람 + 중립(7개)
 - 모델에 넣기 위해 위의 3개의 파일을 감정 Label 7개에 맞춰 재라벨링을 진행하였다.
 
-### ✔️ ReUmi Model
+### ReUmi Model
 ReUmi Model은 한국어 대화 데이터셋 약 15만개를 KoBERT모델에 학습시켜 완성한 최종 모델
 프로젝트명인 Read Your Mind를 따 만들었다.
 ![그림1](https://github.com/shashamalone/KoBERT_music_recomendation/assets/121562687/513707c0-8f30-45cf-9ce5-02bc8ffb2033)
@@ -85,7 +87,7 @@ learning_rate =  3e-5
 
 
 
-## 💻 Code
+## Code
 < Crawling >   
 1. melon_crawler.ipynb : 멜론 크롤링을 위한 코드
 
