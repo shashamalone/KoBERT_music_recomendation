@@ -1,4 +1,4 @@
-# 오늘 나의 기분에 맞는 BGM은? (Web Scraping & KoBERT)
+![ClipWindowsGIF](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/f1c0fde2-5b07-4bc0-b9c4-73d9b0684b36)# 오늘 나의 기분에 맞는 BGM은? (Web Scraping & KoBERT)
 
 KoBERT모델 기반의 Text(예: 일기)에 어울리는 노래 추천 프로젝트
 
@@ -43,10 +43,10 @@ Melon_song_data를 완성된 ReUmi Model에 넣어 감정 categroy결과를 컬�
 
 ## 🏆 Modeling
 
-### KoBERT Model
+### ✔️ KoBERT Model
 KoBERT Model은 SKT-Brain에서 개발한 한국어 기반  BERT 모델.
 
-### Model 학습을 위한 Data Sets 구축
+### ✔️ Model 학습을 위한 Data Sets 구축
 
 KoBERT 모델 학습을 위한 AI HUB의 한국어 데이터
 1. 감성 대화 말뭉치 58271 개
@@ -56,12 +56,12 @@ KoBERT 모델 학습을 위한 AI HUB의 한국어 데이터
 - 감정 Label : 행복, 슬픔 , 분노 , 공포 , 혐오 , 놀람 + 중립(7개)
 - 모델에 넣기 위해 위의 3개의 파일을 감정 Label 7개에 맞춰 재라벨링을 진행하였다.
 
-### ReUmi Model
+### ✔️ ReUmi Model
 ReUmi Model은 한국어 대화 데이터셋 약 15만개를 KoBERT모델에 학습시켜 완성한 최종 모델
 ![image](https://github.com/shashamalone/KoBERT_music_recomendation/assets/133465838/fcd92187-18fa-4d5a-85de-dcf676b5683b)
-- train acc : 0.9154 , val acc : 0.7957
+- train acc : 0.9154 , val acc : **0.7957**
 - 입력데이터를 여러버전으로 모델에 테스트해본 결과, 정확도는 0.87(Validation 기준)까지 나왔으나 가사에 대한 감정인지가 가장 높았던 모델로 선택하였다.
-- **Setting parameters**   
+-  **Setting parameters**    
 num_classes=7   
 max_len = 64   
 batch_size = 64   
