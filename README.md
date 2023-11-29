@@ -5,7 +5,7 @@ KoBERT모델 기반의 Text(예: 일기)에 어울리는 노래 추천 프로젝
 ## 목차
 1. [🏆 Project Introduction](#Project-Introduction)
 2. [프로젝트 구조도](#프로젝트-구조도)
-3. [⭐️ streamlit 시연 화면](#:star:streamlit-시연-화면)
+3. [⭐️ streamlit 시연 화면](#⭐streamlit-시연-화면)
 
 ## 🏆 Project Introduction
 1. 주제: 일기, 다이어리의 글을 입력하면 감정을 분석해 어울리는 음악 추천
