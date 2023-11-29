@@ -89,13 +89,15 @@ learning_rate =  3e-5
 < Modeling >   
 2. 감정분석_modeling_final.ipynb : ReUmi모델 완성에 사용된 코드
 
-< Fron-End >   
+
+< Fron-End >
 3. MusicRecommend.py : 텍스트를 입력하면 ReUmi모델과 코사인유사도에 기반해 노래를 추천하는 코드   
 - predict(predict_sentence): ReUmi모델 실행하는 코드
 	- ReUmi.pt
 	- model_state_dict.pt
 - vectorize_text(text, vectorizer) :입력한 텍스트를 벡터화하는 함수
 - find_similar_songs(user_text, songs_data, top_n=3) :입력한 텍스트의 감정을 인식하고 노래를 추천하는 함수   
+
 
 4. app.py : streamlit에 구현할 화면을 구성한 코드
     - style.css   
